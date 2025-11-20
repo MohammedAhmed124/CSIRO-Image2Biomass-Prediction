@@ -1,0 +1,19 @@
+# Core
+numpy
+pandas
+opencv-python
+tqdm
+scikit-learn
+albumentations
+torchsummary
+timm
+glob2
+
+# Deep Learning
+torch
+torchvision
+torchaudio
+
+# Optional (for notebook usage)
+jupyterlab
+matplotlib
