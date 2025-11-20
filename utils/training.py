@@ -119,8 +119,8 @@ def calculate_weighted_r2(
 
 
             for target in CFG.ALL_TARGETS:
-                all_preds_dict[target].extend(batch_preds[target])
-                all_true_dict[target].extend(batch_true[target])
+                all_preds_dict[target].extend(np.atleast_1d(batch_preds[target]).ravel())
+                all_true_dict[target].extend(np.atleast_1d(batch_true[target]).ravel())
 
 
     final_score = 0

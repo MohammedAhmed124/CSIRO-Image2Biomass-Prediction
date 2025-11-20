@@ -231,7 +231,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 training_config = {
     "batch_size": 4,
     "accumulation_steps":6,                    
-    "n_epochs": 80,                        
+    "n_epochs": 2,                        
     "optimizer": torch.optim.AdamW,       
     "optimizer_config": {
         "lr": 1e-4,                        
